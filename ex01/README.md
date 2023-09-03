@@ -7,7 +7,9 @@
 1. Crear proyecto **ASP.NET Core Web API**.
 2. Crear modelo de la clase *Cliente*.
 3. Configurar **contexto** de EF.
-4. Mapear modelo usando atributos.
+4. Mapear modelo
+    - Se puede hacer usando atributos.
+    - Pero lo haremos con el método **OnModelCreating()** en el *EF context*.
 5. Configurar **EF.InMemory** en *Program.cs*. *(Debe estar puesto antes de que se construya la aplicación: "var app = builder.Build();")*
 ```csharp
 builder.Services.AddDbContext<ClienteContext>(p => p.UseInMemoryDatabase("ClientesDB"));
@@ -21,7 +23,8 @@ app.MapGet("/dbconexion", async ([FromServices] ClienteContext dbContext) =>
 });
 // Resultado esperado: "Base de datos en memoria: True"
 ```
-Nota: Se puede verificar desde Swagger o con Postman desde *(https://localhost:7078/dbconexion)*. <br>
+Nota: Se puede verificar desde Swagger o con Postman desde *(https://localhost:7078/dbconexion)*.
+
 
 ## Recursos
 ```sql

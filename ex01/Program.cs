@@ -33,7 +33,7 @@ namespace ex01
 
             app.MapControllers();
 
-            // Paso 6: Hacer mapeo para verificar que EF es capaz de generar la DB y que es en memoria.
+            // Paso 6: Hacer mapeo para verificar que EF es capaz de generar la DB y que está en memoria.
             app.MapGet("/dbconexion", async ([FromServices] ClienteContext dbContext) =>
             {
                 dbContext.Database.EnsureCreated();
