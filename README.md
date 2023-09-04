@@ -1,4 +1,11 @@
 # C5-T31 API .NET Core
+## Links
+- [Ejercicio 1](https://github.com/santiarroyave/sao-fe-gc-ejercicios-c5-T31-API-NET-Core-08-2023/tree/main/ex01)
+- [Ejercicio 2](https://github.com/santiarroyave/sao-fe-gc-ejercicios-c5-T31-API-NET-Core-08-2023/tree/main/ex02)
+- [Ejercicio 3](https://github.com/santiarroyave/sao-fe-gc-ejercicios-c5-T31-API-NET-Core-08-2023/tree/main/ex03)
+
+- [Pasos (ex01)](https://github.com/santiarroyave/sao-fe-gc-ejercicios-c5-T31-API-NET-Core-08-2023/blob/main/ex01/README.md#pasos)
+- [Notas (ex02)](https://github.com/santiarroyave/sao-fe-gc-ejercicios-c5-T31-API-NET-Core-08-2023/blob/main/ex02/README.md#notas)
 
 ## Configuraciones
 ### Conectar a BBDD InMemory
