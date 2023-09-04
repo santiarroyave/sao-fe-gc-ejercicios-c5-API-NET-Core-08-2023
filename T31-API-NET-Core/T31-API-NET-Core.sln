@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T31-API-NET-Core", "T31-API
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex01", "..\ex01\ex01.csproj", "{998FEA56-97F6-4228-B18E-77F726C33096}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex02", "..\ex02\ex02.csproj", "{0A0BC573-6299-45D0-A662-D8FCB93D9613}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ex02", "..\ex02\ex02.csproj", "{0A0BC573-6299-45D0-A662-D8FCB93D9613}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ex03", "..\ex03\ex03.csproj", "{BC21F5DE-B08A-44D7-BA27-2920D1FD7996}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{0A0BC573-6299-45D0-A662-D8FCB93D9613}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A0BC573-6299-45D0-A662-D8FCB93D9613}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A0BC573-6299-45D0-A662-D8FCB93D9613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC21F5DE-B08A-44D7-BA27-2920D1FD7996}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC21F5DE-B08A-44D7-BA27-2920D1FD7996}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC21F5DE-B08A-44D7-BA27-2920D1FD7996}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC21F5DE-B08A-44D7-BA27-2920D1FD7996}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
